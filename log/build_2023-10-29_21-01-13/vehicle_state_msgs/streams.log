@@ -1,0 +1,15 @@
+[0.566s] Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs -- -j16 -l16
+[0.789s] [  3%] Built target vehicle_state_msgs__cpp
+[0.789s] [ 12%] Built target vehicle_state_msgs__rosidl_generator_c
+[0.789s] [ 22%] Built target vehicle_state_msgs__rosidl_typesupport_cpp
+[0.789s] [ 32%] Built target vehicle_state_msgs__rosidl_typesupport_introspection_cpp
+[0.789s] [ 41%] Built target vehicle_state_msgs__rosidl_typesupport_c
+[0.789s] [ 51%] Built target vehicle_state_msgs__rosidl_typesupport_fastrtps_cpp
+[0.789s] [ 61%] Built target vehicle_state_msgs__rosidl_typesupport_introspection_c
+[0.790s] [ 70%] Built target vehicle_state_msgs__rosidl_typesupport_fastrtps_c
+[0.790s] [ 70%] Built target vehicle_state_msgs
+[0.790s] [ 74%] Built target vehicle_state_msgs__py
+[0.790s] [ 80%] Built target vehicle_state_msgs__python
+[0.790s] [ 87%] Built target vehicle_state_msgs__rosidl_typesupport_c__pyext
+[0.790s] [ 93%] Built target vehicle_state_msgs__rosidl_typesupport_introspection_c__pyext
+[0.790s] [100%] Built target vehicle_state_msgs__rosidl_typesupport_fastrtps_c__pyext

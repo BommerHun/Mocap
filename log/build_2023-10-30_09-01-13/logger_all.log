@@ -1,0 +1,497 @@
+[1.247s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.247s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f759670b160>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f759670b160>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f75966ef280>)
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.305s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bodlaire/Desktop/Work/Mocap'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ignore'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ignore_ament_install'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['colcon_pkg']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'colcon_pkg'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['colcon_meta']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'colcon_meta'
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['ros']
+[1.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ros'
+[1.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive_bridge_msg' with type 'ros.ament_cmake' and name 'drive_bridge_msg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extension 'ignore'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extension 'ignore_ament_install'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extensions ['colcon_pkg']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extension 'colcon_pkg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extensions ['colcon_meta']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extension 'colcon_meta'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msg) by extension 'ros'
+[1.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_msg' with type 'ros.ament_cmake' and name 'mocap_msg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ignore'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ignore_ament_install'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['colcon_pkg']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'colcon_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['colcon_meta']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'colcon_meta'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extensions ['ros']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_pkg) by extension 'ros'
+[1.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_pkg' with type 'ros.ament_python' and name 'mocap_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extension 'ignore'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extension 'ignore_ament_install'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extensions ['colcon_pkg']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extension 'colcon_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extensions ['colcon_meta']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extension 'colcon_meta'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extensions ['ros']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_msgs) by extension 'ros'
+[1.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_state_msgs' with type 'ros.ament_cmake' and name 'vehicle_state_msgs'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extensions ['ignore', 'ignore_ament_install']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extension 'ignore'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extension 'ignore_ament_install'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extensions ['colcon_pkg']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extension 'colcon_pkg'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extensions ['colcon_meta']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extension 'colcon_meta'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extensions ['ros']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vehicle_state_observer) by extension 'ros'
+[1.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vehicle_state_observer' with type 'ros.ament_python' and name 'vehicle_state_observer'
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extension 'ignore'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extension 'ignore_ament_install'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extensions ['colcon_pkg']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extension 'colcon_pkg'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extensions ['colcon_meta']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extension 'colcon_meta'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extensions ['ros']
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc_msgs) by extension 'ros'
+[1.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.493s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/bodlaire/Desktop/Work/Mocap/install
+[1.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_target' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.604s] DEBUG:colcon.colcon_core.verb:Building package 'drive_bridge_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/drive_bridge_msg', 'symlink_install': False, 'test_result_base': None}
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_target' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.625s] Level 5:colcon.colcon_core.verb:set package 'mocap_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.625s] DEBUG:colcon.colcon_core.verb:Building package 'mocap_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/mocap_msg', 'symlink_install': False, 'test_result_base': None}
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_args' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_target' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'mocap_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.646s] DEBUG:colcon.colcon_core.verb:Building package 'mocap_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_target' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.666s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_state_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_target' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_clean_first' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'cmake_force_configure' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'ament_cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'vehicle_state_observer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.686s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_state_observer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer', 'symlink_install': False, 'test_result_base': None}
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.707s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.707s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Work/Mocap/src/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.738s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.759s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.759s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/drive_bridge_msg' with build type 'ament_cmake'
+[1.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bodlaire/Desktop/Work/Mocap/src/drive_bridge_msg'
+[1.780s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.846s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_msg' with build type 'ament_cmake'
+[1.846s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_msg'
+[1.868s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg' with build type 'ament_python'
+[1.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_pkg', 'ament_prefix_path')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/ament_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/ament_prefix_path.dsv'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/ament_prefix_path.sh'
+[1.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.048s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_msgs' with build type 'ament_cmake'
+[2.049s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_msgs'
+[2.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.136s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer' with build type 'ament_python'
+[2.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_observer', 'ament_prefix_path')
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/ament_prefix_path.ps1'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/ament_prefix_path.dsv'
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/ament_prefix_path.sh'
+[2.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bodlaire/Desktop/Work/Mocap/src/vesc_msgs' with build type 'ament_cmake'
+[2.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bodlaire/Desktop/Work/Mocap/src/vesc_msgs'
+[2.269s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.269s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg -- -j16 -l16
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg -- -j16 -l16
+[2.513s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg'
+[2.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs -- -j16 -l16
+[2.766s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer'
+[2.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg -- -j16 -l16
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg -- -j16 -l16
+[2.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs -- -j16 -l16
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs -- -j16 -l16
+[2.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg
+[2.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs
+[2.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg
+[2.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_bridge_msg)
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg' for CMake module files
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg' for CMake config files
+[2.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'cmake_prefix_path')
+[3.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.ps1'
+[3.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.dsv'
+[3.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.sh'
+[3.011s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib'
+[3.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'ld_library_path_lib')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.dsv'
+[3.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib/pkgconfig/drive_bridge_msg.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib/python3.8/site-packages'
+[3.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'pythonpath')
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.ps1'
+[3.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.dsv'
+[3.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.sh'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/bin'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.ps1'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.sh'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.bash'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.zsh'
+[3.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/colcon-core/packages/drive_bridge_msg)
+[3.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_msg)
+[3.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg' for CMake module files
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg' for CMake config files
+[3.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'cmake_prefix_path')
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.ps1'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.sh'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib'
+[3.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'ld_library_path_lib')
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.ps1'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.sh'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/bin'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib/pkgconfig/mocap_msg.pc'
+[3.162s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib/python3.8/site-packages'
+[3.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'pythonpath')
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.ps1'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.dsv'
+[3.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.sh'
+[3.185s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/bin'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.ps1'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.bash'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.zsh'
+[3.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/colcon-core/packages/mocap_msg)
+[3.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs -- -j16 -l16
+[3.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_state_msgs)
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs' for CMake module files
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs' for CMake config files
+[3.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'cmake_prefix_path')
+[3.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.ps1'
+[3.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.dsv'
+[3.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.sh'
+[3.260s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib'
+[3.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'ld_library_path_lib')
+[3.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.ps1'
+[3.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.dsv'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.sh'
+[3.285s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/bin'
+[3.285s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib/pkgconfig/vehicle_state_msgs.pc'
+[3.285s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib/python3.8/site-packages'
+[3.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'pythonpath')
+[3.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.ps1'
+[3.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.dsv'
+[3.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.sh'
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/bin'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.ps1'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.dsv'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.sh'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.bash'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.zsh'
+[3.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/colcon-core/packages/vehicle_state_msgs)
+[3.354s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_bridge_msg)
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg' for CMake module files
+[3.376s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg' for CMake config files
+[3.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'cmake_prefix_path')
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.ps1'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.dsv'
+[3.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.sh'
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib'
+[3.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'ld_library_path_lib')
+[3.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.ps1'
+[3.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.dsv'
+[3.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.sh'
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/bin'
+[3.427s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib/pkgconfig/drive_bridge_msg.pc'
+[3.428s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/lib/python3.8/site-packages'
+[3.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'pythonpath')
+[3.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.ps1'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.dsv'
+[3.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.sh'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/bin'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.ps1'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.sh'
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.bash'
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/drive_bridge_msg/package.zsh'
+[3.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg/share/colcon-core/packages/drive_bridge_msg)
+[3.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mocap_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log --install-scripts $base/lib/mocap_pkg --single-version-externally-managed
+[3.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_state_observer build --build-base /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build install --record /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/install.log --install-scripts $base/lib/vehicle_state_observer --single-version-externally-managed
+[3.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_msg)
+[3.523s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg' for CMake module files
+[3.524s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg' for CMake config files
+[3.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'cmake_prefix_path')
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.ps1'
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.dsv'
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/cmake_prefix_path.sh'
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib'
+[3.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'ld_library_path_lib')
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.dsv'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/ld_library_path_lib.sh'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/bin'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib/pkgconfig/mocap_msg.pc'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/lib/python3.8/site-packages'
+[3.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_msg', 'pythonpath')
+[3.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.ps1'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.dsv'
+[3.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/hook/pythonpath.sh'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/bin'
+[3.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.ps1'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.dsv'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.sh'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.bash'
+[3.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/mocap_msg/package.zsh'
+[3.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg/share/colcon-core/packages/mocap_msg)
+[3.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs
+[3.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_state_msgs)
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs' for CMake module files
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs' for CMake config files
+[3.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'cmake_prefix_path')
+[3.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.ps1'
+[3.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.dsv'
+[3.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/cmake_prefix_path.sh'
+[3.702s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib'
+[3.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'ld_library_path_lib')
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.ps1'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.dsv'
+[3.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/ld_library_path_lib.sh'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/bin'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib/pkgconfig/vehicle_state_msgs.pc'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/lib/python3.8/site-packages'
+[3.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_msgs', 'pythonpath')
+[3.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.ps1'
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.dsv'
+[3.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/hook/pythonpath.sh'
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/bin'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.ps1'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.dsv'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.sh'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.bash'
+[3.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/vehicle_state_msgs/package.zsh'
+[3.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs/share/colcon-core/packages/vehicle_state_msgs)
+[3.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg' returned '0': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mocap_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log --install-scripts $base/lib/mocap_pkg --single-version-externally-managed
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg' for CMake module files
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg' for CMake config files
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib'
+[3.804s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/bin'
+[3.805s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/pkgconfig/mocap_pkg.pc'
+[3.805s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages'
+[3.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap_pkg', 'pythonpath')
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/pythonpath.ps1'
+[3.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/pythonpath.dsv'
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/hook/pythonpath.sh'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/bin'
+[3.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap_pkg)
+[3.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/package.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/package.dsv'
+[3.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/package.sh'
+[3.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/package.bash'
+[3.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg/package.zsh'
+[3.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/colcon-core/packages/mocap_pkg)
+[3.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer' returned '0': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_state_observer build --build-base /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build install --record /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/install.log --install-scripts $base/lib/vehicle_state_observer --single-version-externally-managed
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer' for CMake module files
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer' for CMake config files
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib'
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/bin'
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/pkgconfig/vehicle_state_observer.pc'
+[3.870s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages'
+[3.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_state_observer', 'pythonpath')
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/pythonpath.ps1'
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/pythonpath.dsv'
+[3.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/hook/pythonpath.sh'
+[3.892s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/bin'
+[3.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_state_observer)
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/package.ps1'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/package.dsv'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/package.sh'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/package.bash'
+[3.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/vehicle_state_observer/package.zsh'
+[3.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/share/colcon-core/packages/vehicle_state_observer)
+[3.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[3.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/vesc_msgs
+[3.935s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs' for CMake module files
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs' for CMake config files
+[3.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[3.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib'
+[3.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[3.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/bin'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib/python3.8/site-packages'
+[3.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[3.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[3.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/bin'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.sh'
+[4.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.bash'
+[4.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[4.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[4.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs' for CMake module files
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs' for CMake config files
+[4.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[4.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[4.150s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib'
+[4.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[4.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[4.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[4.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/bin'
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/lib/python3.8/site-packages'
+[4.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'pythonpath')
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.ps1'
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.dsv'
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/hook/pythonpath.sh'
+[4.192s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/bin'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.sh'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.bash'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[4.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Work/Mocap/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[4.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.223s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.272s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Work/Mocap/install/local_setup.ps1'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bodlaire/Desktop/Work/Mocap/install/_local_setup_util_ps1.py'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Work/Mocap/install/setup.ps1'
+[4.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Work/Mocap/install/local_setup.sh'
+[4.324s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bodlaire/Desktop/Work/Mocap/install/_local_setup_util_sh.py'
+[4.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Work/Mocap/install/setup.sh'
+[4.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Work/Mocap/install/local_setup.bash'
+[4.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Work/Mocap/install/setup.bash'
+[4.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Work/Mocap/install/local_setup.zsh'
+[4.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Work/Mocap/install/setup.zsh'

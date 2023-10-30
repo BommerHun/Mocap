@@ -1,0 +1,2 @@
+/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages/vehicle_state_observer/optitrack_state_observer_node.py:21: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  ('CUTOFF', rclpy.Parameter.Type.DOUBLE)

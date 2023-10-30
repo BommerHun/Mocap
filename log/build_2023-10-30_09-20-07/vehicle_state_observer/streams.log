@@ -1,0 +1,24 @@
+[1.374s] Invoking command in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_state_observer build --build-base /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build install --record /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/install.log --install-scripts $base/lib/vehicle_state_observer --single-version-externally-managed
+[1.564s] running egg_info
+[1.564s] writing ../../build/vehicle_state_observer/vehicle_state_observer.egg-info/PKG-INFO
+[1.565s] writing dependency_links to ../../build/vehicle_state_observer/vehicle_state_observer.egg-info/dependency_links.txt
+[1.565s] writing entry points to ../../build/vehicle_state_observer/vehicle_state_observer.egg-info/entry_points.txt
+[1.565s] writing requirements to ../../build/vehicle_state_observer/vehicle_state_observer.egg-info/requires.txt
+[1.566s] writing top-level names to ../../build/vehicle_state_observer/vehicle_state_observer.egg-info/top_level.txt
+[1.570s] reading manifest file '../../build/vehicle_state_observer/vehicle_state_observer.egg-info/SOURCES.txt'
+[1.570s] writing manifest file '../../build/vehicle_state_observer/vehicle_state_observer.egg-info/SOURCES.txt'
+[1.570s] running build
+[1.570s] running build_py
+[1.570s] copying vehicle_state_observer/optitrack_state_observer_node.py -> /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build/lib/vehicle_state_observer
+[1.570s] running install
+[1.570s] running install_lib
+[1.570s] copying /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build/lib/vehicle_state_observer/optitrack_state_observer_node.py -> /home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages/vehicle_state_observer
+[1.570s] byte-compiling /home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages/vehicle_state_observer/optitrack_state_observer_node.py to optitrack_state_observer_node.cpython-38.pyc
+[1.570s] running install_data
+[1.570s] running install_egg_info
+[1.570s] removing '/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages/vehicle_state_observer-0.0.0-py3.8.egg-info' (and everything under it)
+[1.570s] Copying ../../build/vehicle_state_observer/vehicle_state_observer.egg-info to /home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages/vehicle_state_observer-0.0.0-py3.8.egg-info
+[1.570s] running install_scripts
+[1.571s] Installing optitrack_state_observer_node script to /home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/vehicle_state_observer
+[1.571s] writing list of installed files to '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/install.log'
+[1.854s] Invoked command in '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_observer' returned '0': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_state_observer build --build-base /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/build install --record /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_observer/install.log --install-scripts $base/lib/vehicle_state_observer --single-version-externally-managed

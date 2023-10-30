@@ -1,0 +1,24 @@
+[1.396s] Invoking command in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mocap_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log --install-scripts $base/lib/mocap_pkg --single-version-externally-managed
+[1.530s] running egg_info
+[1.531s] writing ../../build/mocap_pkg/mocap_pkg.egg-info/PKG-INFO
+[1.531s] writing dependency_links to ../../build/mocap_pkg/mocap_pkg.egg-info/dependency_links.txt
+[1.532s] writing entry points to ../../build/mocap_pkg/mocap_pkg.egg-info/entry_points.txt
+[1.533s] writing requirements to ../../build/mocap_pkg/mocap_pkg.egg-info/requires.txt
+[1.533s] writing top-level names to ../../build/mocap_pkg/mocap_pkg.egg-info/top_level.txt
+[1.559s] reading manifest file '../../build/mocap_pkg/mocap_pkg.egg-info/SOURCES.txt'
+[1.559s] writing manifest file '../../build/mocap_pkg/mocap_pkg.egg-info/SOURCES.txt'
+[1.559s] running build
+[1.559s] running build_py
+[1.559s] copying mocap_pkg/mocap_node.py -> /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg
+[1.559s] running install
+[1.560s] running install_lib
+[1.560s] copying /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg/mocap_node.py -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg
+[1.560s] byte-compiling /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg/mocap_node.py to mocap_node.cpython-38.pyc
+[1.560s] running install_data
+[1.560s] running install_egg_info
+[1.562s] removing '/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.562s] Copying ../../build/mocap_pkg/mocap_pkg.egg-info to /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg-0.0.0-py3.8.egg-info
+[1.563s] running install_scripts
+[1.582s] Installing mocap_node script to /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/mocap_pkg
+[1.582s] writing list of installed files to '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log'
+[1.793s] Invoked command in '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg' returned '0': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mocap_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log --install-scripts $base/lib/mocap_pkg --single-version-externally-managed

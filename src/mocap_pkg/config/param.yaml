@@ -1,0 +1,5 @@
+parameter_server:
+  ros__parameters:
+    hostname: "192.168.1.10"
+    mocap_type: "optitrack"
+    vehicle_id_list: ["AI_car_01", "RC_car_02"]

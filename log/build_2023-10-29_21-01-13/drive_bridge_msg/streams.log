@@ -1,0 +1,15 @@
+[0.593s] Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_observer:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg -- -j16 -l16
+[1.078s] [  9%] Built target drive_bridge_msg__rosidl_generator_c
+[1.078s] [ 12%] Built target drive_bridge_msg__cpp
+[1.079s] [ 22%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c
+[1.079s] [ 32%] Built target drive_bridge_msg__rosidl_typesupport_cpp
+[1.079s] [ 41%] Built target drive_bridge_msg__rosidl_typesupport_c
+[1.079s] [ 51%] Built target drive_bridge_msg__rosidl_typesupport_introspection_cpp
+[1.079s] [ 61%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_cpp
+[1.079s] [ 70%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c
+[1.079s] [ 70%] Built target drive_bridge_msg
+[1.079s] [ 74%] Built target drive_bridge_msg__py
+[1.079s] [ 80%] Built target drive_bridge_msg__python
+[1.079s] [ 87%] Built target drive_bridge_msg__rosidl_typesupport_c__pyext
+[1.079s] [100%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c__pyext
+[1.080s] [100%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext

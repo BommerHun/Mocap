@@ -1,0 +1,4 @@
+Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg -- -j16 -l16
+Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg -- -j16 -l16
+Invoking command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg
+Invoked command in '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg

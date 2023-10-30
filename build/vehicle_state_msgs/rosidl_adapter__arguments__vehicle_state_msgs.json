@@ -1,0 +1,6 @@
+{
+  "package_name": "vehicle_state_msgs",
+  "non_idl_tuples": [
+    "/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_msgs:msg/VehicleStateStamped.msg"
+  ]
+}

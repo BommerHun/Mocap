@@ -1,0 +1,6 @@
+{
+  "package_name": "mocap_msg",
+  "non_idl_tuples": [
+    "/home/bodlaire/Desktop/Work/Mocap/src/mocap_msg:msg/PosValue.msg"
+  ]
+}

@@ -1,0 +1,5 @@
+  File "/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg/mocap_node.py", line 27
+    /aimotion_mocap_node/rigid_bodies/<id>/pose
+    ^
+SyntaxError: invalid syntax
+

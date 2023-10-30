@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (drive_bridge_msg) JobQueued: {'identifier': 'drive_bridge_msg', 'dependencies': OrderedDict()}
+[0.000542] (mocap_msg) JobQueued: {'identifier': 'mocap_msg', 'dependencies': OrderedDict()}
+[0.000585] (mocap_pkg) JobQueued: {'identifier': 'mocap_pkg', 'dependencies': OrderedDict()}
+[0.000624] (vehicle_state_msgs) JobQueued: {'identifier': 'vehicle_state_msgs', 'dependencies': OrderedDict()}
+[0.000649] (drive_bridge_msg) JobStarted: {'identifier': 'drive_bridge_msg'}
+[0.067245] (mocap_msg) JobStarted: {'identifier': 'mocap_msg'}
+[0.100634] (-) TimerEvent: {}
+[0.134745] (mocap_pkg) JobStarted: {'identifier': 'mocap_pkg'}
+[0.202379] (-) TimerEvent: {}
+[0.231564] (vehicle_state_msgs) JobStarted: {'identifier': 'vehicle_state_msgs'}
+[0.299096] (drive_bridge_msg) JobProgress: {'identifier': 'drive_bridge_msg', 'progress': 'cmake'}
+[0.299461] (drive_bridge_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/bodlaire/Desktop/Work/Mocap/src/drive_bridge_msg', '-DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Work/Mocap/install/drive_bridge_msg'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2574'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('OLDPWD', '/home/bodlaire/Desktop/Work/Mocap/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2341'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:55321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654'), ('INVOCATION_ID', '18604d6c01fd492b9d8ac1d4022d80cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.302321] (mocap_msg) JobProgress: {'identifier': 'mocap_msg', 'progress': 'cmake'}
+[0.302384] (-) TimerEvent: {}
+[0.303188] (mocap_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/bodlaire/Desktop/Work/Mocap/src/mocap_msg', '-DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Work/Mocap/install/mocap_msg'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2574'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('OLDPWD', '/home/bodlaire/Desktop/Work/Mocap/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2341'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:55321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654'), ('INVOCATION_ID', '18604d6c01fd492b9d8ac1d4022d80cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.402588] (-) TimerEvent: {}
+[0.503059] (-) TimerEvent: {}
+[0.535091] (drive_bridge_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.535291] (drive_bridge_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.535388] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.535660] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.535995] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.536046] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.536301] (mocap_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.536652] (mocap_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.537116] (mocap_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.537300] (mocap_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.537445] (mocap_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.538446] (mocap_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.538588] (mocap_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.538756] (vehicle_state_msgs) JobProgress: {'identifier': 'vehicle_state_msgs', 'progress': 'cmake'}
+[0.538779] (mocap_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.538833] (vehicle_state_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/bodlaire/Desktop/Work/Mocap/src/vehicle_state_msgs', '-DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Work/Mocap/install/vehicle_state_msgs'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2574'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('OLDPWD', '/home/bodlaire/Desktop/Work/Mocap/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2341'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:55321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654'), ('INVOCATION_ID', '18604d6c01fd492b9d8ac1d4022d80cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.540545] (mocap_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.540794] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.541187] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.541326] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.590455] (vehicle_state_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.598431] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.598719] (mocap_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.599971] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600154] (mocap_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.603156] (-) TimerEvent: {}
+[0.632436] (vehicle_state_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.636390] (vehicle_state_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.663618] (mocap_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.671365] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.674586] (mocap_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.675104] (mocap_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.677046] (mocap_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.682905] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.683205] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.684531] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.690726] (vehicle_state_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.692021] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.696723] (mocap_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.696933] (mocap_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.703296] (-) TimerEvent: {}
+[0.706326] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.706577] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.751501] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.760937] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.761220] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.762818] (vehicle_state_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.803421] (-) TimerEvent: {}
+[0.814876] (mocap_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mocap_pkg', 'build', '--build-base', '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build', 'install', '--record', '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log', '--install-scripts', '$base/lib/mocap_pkg', '--single-version-externally-managed'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/src/mocap_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bodlaire', 'LC_TIME': 'hu_HU.UTF-8', 'SSH_AGENT_PID': '2574', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/bodlaire', 'OLDPWD': '/home/bodlaire/Desktop/Work/Mocap/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'hu_HU.UTF-8', 'MANAGERPID': '2341', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'bodlaire', 'JOURNAL_STREAM': '8:55321', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bodlaire', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654', 'INVOCATION_ID': '18604d6c01fd492b9d8ac1d4022d80cc', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'hu_HU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'hu_HU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.91', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'hu_HU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'hu_HU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'hu_HU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'hu_HU.UTF-8', 'LC_PAPER': 'hu_HU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.838592] (vehicle_state_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.840104] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.855438] (drive_bridge_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.857087] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.859402] (mocap_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.860840] (drive_bridge_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.861122] (mocap_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.864829] (mocap_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903523] (-) TimerEvent: {}
+[0.913244] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.927910] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.928204] (vehicle_state_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.929532] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.931044] (drive_bridge_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.935088] (mocap_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.945526] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.945796] (vehicle_state_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.950013] (mocap_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.950327] (mocap_pkg) StdoutLine: {'line': b'creating ../../build/mocap_pkg/mocap_pkg.egg-info\n'}
+[0.950415] (mocap_pkg) StdoutLine: {'line': b'writing ../../build/mocap_pkg/mocap_pkg.egg-info/PKG-INFO\n'}
+[0.950559] (mocap_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mocap_pkg/mocap_pkg.egg-info/dependency_links.txt\n'}
+[0.950642] (mocap_pkg) StdoutLine: {'line': b'writing entry points to ../../build/mocap_pkg/mocap_pkg.egg-info/entry_points.txt\n'}
+[0.950707] (mocap_pkg) StdoutLine: {'line': b'writing requirements to ../../build/mocap_pkg/mocap_pkg.egg-info/requires.txt\n'}
+[0.950777] (mocap_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/mocap_pkg/mocap_pkg.egg-info/top_level.txt\n'}
+[0.951541] (mocap_pkg) StdoutLine: {'line': b"writing manifest file '../../build/mocap_pkg/mocap_pkg.egg-info/SOURCES.txt'\n"}
+[0.952121] (drive_bridge_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.954021] (mocap_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.973602] (mocap_pkg) StdoutLine: {'line': b"reading manifest file '../../build/mocap_pkg/mocap_pkg.egg-info/SOURCES.txt'\n"}
+[0.974028] (mocap_pkg) StdoutLine: {'line': b"writing manifest file '../../build/mocap_pkg/mocap_pkg.egg-info/SOURCES.txt'\n"}
+[0.974154] (mocap_pkg) StdoutLine: {'line': b'running build\n'}
+[0.974278] (mocap_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.974359] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build\n'}
+[0.974458] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib\n'}
+[0.974554] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg\n'}
+[0.974615] (mocap_pkg) StdoutLine: {'line': b'copying mocap_pkg/mocap_node.py -> /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg\n'}
+[0.974676] (mocap_pkg) StdoutLine: {'line': b'copying mocap_pkg/__init__.py -> /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg\n'}
+[0.974735] (mocap_pkg) StdoutLine: {'line': b'running install\n'}
+[0.974974] (mocap_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.975518] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg\n'}
+[0.975613] (mocap_pkg) StdoutLine: {'line': b'copying /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg/mocap_node.py -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg\n'}
+[0.975692] (mocap_pkg) StdoutLine: {'line': b'copying /home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/build/lib/mocap_pkg/__init__.py -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg\n'}
+[0.975916] (mocap_pkg) StdoutLine: {'line': b'byte-compiling /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg/mocap_node.py to mocap_node.cpython-38.pyc\n'}
+[0.977073] (mocap_pkg) StdoutLine: {'line': b'byte-compiling /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[0.977223] (mocap_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.977518] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/ament_index\n'}
+[0.977608] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/ament_index/resource_index\n'}
+[0.977721] (mocap_pkg) StdoutLine: {'line': b'creating /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/ament_index/resource_index/packages\n'}
+[0.977838] (mocap_pkg) StdoutLine: {'line': b'copying resource/mocap_pkg -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/ament_index/resource_index/packages\n'}
+[0.977920] (mocap_pkg) StdoutLine: {'line': b'copying package.xml -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg\n'}
+[0.978003] (mocap_pkg) StdoutLine: {'line': b'copying launch/launch.py -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg\n'}
+[0.978079] (mocap_pkg) StdoutLine: {'line': b'copying config/param.yaml -> /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/share/mocap_pkg\n'}
+[0.978148] (mocap_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.978824] (mocap_pkg) StdoutLine: {'line': b'Copying ../../build/mocap_pkg/mocap_pkg.egg-info to /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/python3.8/site-packages/mocap_pkg-0.0.0-py3.8.egg-info\n'}
+[0.979859] (mocap_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.992407] (mocap_pkg) StdoutLine: {'line': b'Installing mocap_node script to /home/bodlaire/Desktop/Work/Mocap/install/mocap_pkg/lib/mocap_pkg\n'}
+[0.992708] (mocap_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bodlaire/Desktop/Work/Mocap/build/mocap_pkg/install.log'\n"}
+[1.003885] (-) TimerEvent: {}
+[1.004255] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.004640] (mocap_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.011291] (mocap_pkg) CommandEnded: {'returncode': 0}
+[1.039987] (mocap_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.040542] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.079175] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.080510] (vehicle_state_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.084303] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.093155] (mocap_pkg) JobEnded: {'identifier': 'mocap_pkg', 'rc': 0}
+[1.104004] (-) TimerEvent: {}
+[1.123113] (mocap_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.127123] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.152395] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.173391] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.187434] (mocap_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.189661] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.191655] (mocap_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.194496] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.204114] (-) TimerEvent: {}
+[1.213253] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.213949] (drive_bridge_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.214106] (mocap_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.215570] (mocap_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.232058] (vehicle_state_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.234710] (mocap_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.234920] (mocap_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.235025] (mocap_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.235114] (mocap_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.235828] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.235993] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.236082] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.236168] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.250054] (mocap_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.250935] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.252245] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.279593] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.281663] (mocap_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.290105] (vehicle_state_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.291359] (drive_bridge_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.291655] (mocap_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.291907] (drive_bridge_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.292182] (mocap_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.294843] (drive_bridge_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.295033] (mocap_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.304226] (-) TimerEvent: {}
+[1.314022] (mocap_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.315945] (mocap_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/bodlaire/Desktop/Work/Mocap/build/mocap_msg\n'}
+[1.321174] (drive_bridge_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.323009] (drive_bridge_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg\n'}
+[1.324521] (mocap_msg) CommandEnded: {'returncode': 0}
+[1.325251] (mocap_msg) JobProgress: {'identifier': 'mocap_msg', 'progress': 'build'}
+[1.327364] (mocap_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg', '--', '-j16', '-l16'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2574'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('OLDPWD', '/home/bodlaire/Desktop/Work/Mocap/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2341'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:55321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654'), ('INVOCATION_ID', '18604d6c01fd492b9d8ac1d4022d80cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Work/Mocap/build/mocap_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.330480] (drive_bridge_msg) CommandEnded: {'returncode': 0}
+[1.331186] (drive_bridge_msg) JobProgress: {'identifier': 'drive_bridge_msg', 'progress': 'build'}
+[1.332674] (drive_bridge_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg', '--', '-j16', '-l16'], 'cwd': '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2574'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('OLDPWD', '/home/bodlaire/Desktop/Work/Mocap/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2341'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:55321'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2654,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2654'), ('INVOCATION_ID', '18604d6c01fd492b9d8ac1d4022d80cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c4436b32_9f27_4b70_8aaa_6d386e1213a8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Work/Mocap/build/drive_bridge_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=03922d636b0c455143a5964e653d3127'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.358384] (mocap_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.358573] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__cpp\x1b[0m\n'}
+[1.364339] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__cpp\x1b[0m\n'}
+[1.364709] (mocap_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.366613] (drive_bridge_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.371709] (drive_bridge_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.404364] (-) TimerEvent: {}
+[1.420673] (vehicle_state_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.420940] (vehicle_state_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.421113] (vehicle_state_msgs) StderrLine: {'line': b'  vehicle_state_msgs --arguments-file\n'}
+[1.421299] (vehicle_state_msgs) StderrLine: {'line': b'  /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs/rosidl_adapter__arguments__vehicle_state_msgs.json\n'}
+[1.421511] (vehicle_state_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[1.421620] (vehicle_state_msgs) StderrLine: {'line': b'  /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs/rosidl_adapter/vehicle_state_msgs\n'}
+[1.421715] (vehicle_state_msgs) StderrLine: {'line': b'  --output-file\n'}
+[1.421868] (vehicle_state_msgs) StderrLine: {'line': b'  /home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs/rosidl_adapter/vehicle_state_msgs.idls)\n'}
+[1.422015] (vehicle_state_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.422181] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.422374] (vehicle_state_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.422546] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.422775] (vehicle_state_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.422933] (vehicle_state_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.423097] (vehicle_state_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.423272] (vehicle_state_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.423372] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.423478] (vehicle_state_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.423654] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.423828] (vehicle_state_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.424015] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.424156] (vehicle_state_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.424251] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.424417] (vehicle_state_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.424591] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[1.424765] (vehicle_state_msgs) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.424944] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[1.425090] (vehicle_state_msgs) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.425198] (vehicle_state_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[1.425330] (vehicle_state_msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.425492] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.425665] (vehicle_state_msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'VehicleStateStamped_1' is an\n"}
+[1.425851] (vehicle_state_msgs) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.425998] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.426125] (vehicle_state_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.426262] (vehicle_state_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.426439] (vehicle_state_msgs) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[1.426624] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.426780] (vehicle_state_msgs) StderrLine: {'line': b'\n'}
+[1.426945] (vehicle_state_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.427128] (vehicle_state_msgs) StdoutLine: {'line': b'See also "/home/bodlaire/Desktop/Work/Mocap/build/vehicle_state_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.431413] (vehicle_state_msgs) CommandEnded: {'returncode': 1}
+[1.493833] (vehicle_state_msgs) JobEnded: {'identifier': 'vehicle_state_msgs', 'rc': 1}
+[1.504475] (-) TimerEvent: {}
+[1.520872] (drive_bridge_msg) StdoutLine: {'line': b'[  6%] Built target drive_bridge_msg__cpp\n'}
+[1.527132] (drive_bridge_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.528299] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_generator_c\x1b[0m\n'}
+[1.528744] (drive_bridge_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.528938] (drive_bridge_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.532669] (mocap_msg) StdoutLine: {'line': b'[  6%] Built target mocap_msg__cpp\n'}
+[1.539074] (drive_bridge_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_generator_c.dir/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__functions.c.o\x1b[0m\n'}
+[1.539342] (mocap_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.539445] (mocap_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.539517] (mocap_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.540944] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_generator_c\x1b[0m\n'}
+[1.550176] (mocap_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__rosidl_generator_c.dir/rosidl_generator_c/mocap_msg/msg/detail/pos_value__functions.c.o\x1b[0m\n'}
+[1.584663] (mocap_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmocap_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.587211] (drive_bridge_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdrive_bridge_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.604584] (-) TimerEvent: {}
+[1.612425] (drive_bridge_msg) StdoutLine: {'line': b'[ 22%] Built target drive_bridge_msg__rosidl_generator_c\n'}
+[1.612669] (mocap_msg) StdoutLine: {'line': b'[ 22%] Built target mocap_msg__rosidl_generator_c\n'}
+[1.620102] (mocap_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.620331] (mocap_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.621531] (drive_bridge_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.621684] (drive_bridge_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.674669] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.684248] (drive_bridge_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_bridge_msg/msg/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.700225] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.704686] (-) TimerEvent: {}
+[1.705651] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.712396] (drive_bridge_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_bridge_msg/msg/detail/dds_fastrtps/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.712605] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.719159] (mocap_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap_msg/msg/detail/dds_fastrtps/pos_value__type_support.cpp.o\x1b[0m\n'}
+[1.720114] (mocap_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap_msg/msg/pos_value__type_support.cpp.o\x1b[0m\n'}
+[1.730609] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.740935] (drive_bridge_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_bridge_msg/msg/detail/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.742271] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.754082] (mocap_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap_msg/msg/detail/pos_value__type_support.cpp.o\x1b[0m\n'}
+[1.791510] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.801391] (mocap_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap_msg/msg/detail/pos_value__type_support.c.o\x1b[0m\n'}
+[1.804791] (-) TimerEvent: {}
+[1.809611] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_c\x1b[0m\n'}
+[1.817570] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.822114] (mocap_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap_msg/msg/pos_value__type_support.cpp.o\x1b[0m\n'}
+[1.825577] (mocap_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libmocap_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.826251] (drive_bridge_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_bridge_msg/msg/detail/input_values__type_support.c.o\x1b[0m\n'}
+[1.847087] (mocap_msg) StdoutLine: {'line': b'[ 48%] Built target mocap_msg__rosidl_typesupport_introspection_c\n'}
+[1.847336] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_c\x1b[0m\n'}
+[1.849062] (drive_bridge_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libdrive_bridge_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.855265] (drive_bridge_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_bridge_msg/msg/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.855528] (mocap_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.869765] (drive_bridge_msg) StdoutLine: {'line': b'[ 48%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c\n'}
+[1.876308] (drive_bridge_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.901634] (mocap_msg) StdoutLine: {'line': b'[ 51%] Built target mocap_msg__rosidl_typesupport_c\n'}
+[1.904884] (-) TimerEvent: {}
+[1.905516] (drive_bridge_msg) StdoutLine: {'line': b'[ 51%] Built target drive_bridge_msg__rosidl_typesupport_c\n'}
+[1.915475] (drive_bridge_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.944951] (drive_bridge_msg) StdoutLine: {'line': b'[ 54%] Built target drive_bridge_msg__rosidl_typesupport_cpp\n'}
+[1.975520] (mocap_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.988119] (mocap_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.005010] (-) TimerEvent: {}
+[2.008735] (drive_bridge_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.009001] (mocap_msg) StdoutLine: {'line': b'[ 58%] Built target mocap_msg__rosidl_typesupport_cpp\n'}
+[2.033379] (mocap_msg) StdoutLine: {'line': b'[ 58%] Built target mocap_msg__rosidl_typesupport_introspection_cpp\n'}
+[2.052273] (drive_bridge_msg) StdoutLine: {'line': b'[ 58%] Built target drive_bridge_msg__rosidl_typesupport_introspection_cpp\n'}
+[2.055244] (drive_bridge_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.055477] (mocap_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.105148] (-) TimerEvent: {}
+[2.117506] (mocap_msg) StdoutLine: {'line': b'[ 61%] Built target mocap_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.127768] (mocap_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.135625] (drive_bridge_msg) StdoutLine: {'line': b'[ 61%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.146607] (drive_bridge_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.205274] (-) TimerEvent: {}
+[2.288398] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.288739] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.298537] (mocap_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/mocap_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap_msg/msg/detail/pos_value__type_support_c.cpp.o\x1b[0m\n'}
+[2.298816] (drive_bridge_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_bridge_msg/msg/detail/input_values__type_support_c.cpp.o\x1b[0m\n'}
+[2.305381] (-) TimerEvent: {}
+[2.405678] (-) TimerEvent: {}
+[2.506021] (-) TimerEvent: {}
+[2.543508] (mocap_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmocap_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.546032] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.606113] (-) TimerEvent: {}
+[2.610280] (mocap_msg) StdoutLine: {'line': b'[ 70%] Built target mocap_msg__rosidl_typesupport_fastrtps_c\n'}
+[2.614554] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c\n'}
+[2.621361] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg\x1b[0m\n'}
+[2.624822] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg\x1b[0m\n'}
+[2.628842] (mocap_msg) StdoutLine: {'line': b'[ 70%] Built target mocap_msg\n'}
+[2.636220] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__py\x1b[0m\n'}
+[2.636371] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] Built target drive_bridge_msg\n'}
+[2.643431] (mocap_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.643722] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__py\x1b[0m\n'}
+[2.652261] (drive_bridge_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.706238] (-) TimerEvent: {}
+[2.806580] (-) TimerEvent: {}
+[2.906914] (-) TimerEvent: {}
+[2.909912] (mocap_msg) StdoutLine: {'line': b'[ 74%] Built target mocap_msg__py\n'}
+[2.919879] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__python\x1b[0m\n'}
+[2.930925] (mocap_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__python.dir/rosidl_generator_py/mocap_msg/msg/_pos_value_s.c.o\x1b[0m\n'}
+[2.938420] (drive_bridge_msg) StdoutLine: {'line': b'[ 74%] Built target drive_bridge_msg__py\n'}
+[2.945178] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__python\x1b[0m\n'}
+[2.959493] (drive_bridge_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__python.dir/rosidl_generator_py/drive_bridge_msg/msg/_input_values_s.c.o\x1b[0m\n'}
+[2.997201] (mocap_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msg/libmocap_msg__python.so\x1b[0m\n'}
+[3.007138] (-) TimerEvent: {}
+[3.028729] (drive_bridge_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/libdrive_bridge_msg__python.so\x1b[0m\n'}
+[3.031987] (mocap_msg) StdoutLine: {'line': b'[ 80%] Built target mocap_msg__python\n'}
+[3.039573] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.039820] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.042501] (mocap_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mocap_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.051983] (mocap_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mocap_msg/_mocap_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.052219] (mocap_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mocap_msg/_mocap_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.056695] (mocap_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/mocap_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mocap_msg/_mocap_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.056994] (drive_bridge_msg) StdoutLine: {'line': b'[ 80%] Built target drive_bridge_msg__python\n'}
+[3.064055] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.064308] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.064416] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.078617] (drive_bridge_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.078789] (drive_bridge_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.078848] (drive_bridge_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.107246] (-) TimerEvent: {}
+[3.108169] (mocap_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msg/mocap_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.108953] (mocap_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mocap_msg/mocap_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.115544] (mocap_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/mocap_msg/mocap_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.134399] (mocap_msg) StdoutLine: {'line': b'[100%] Built target mocap_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.135776] (mocap_msg) StdoutLine: {'line': b'[100%] Built target mocap_msg__rosidl_typesupport_c__pyext\n'}
+[3.135958] (drive_bridge_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.136069] (drive_bridge_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.136183] (drive_bridge_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.160173] (mocap_msg) StdoutLine: {'line': b'[100%] Built target mocap_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.160345] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.165876] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_c__pyext\n'}
+[3.168104] (mocap_msg) JobEnded: {'identifier': 'mocap_msg', 'rc': 'SIGINT'}
+[3.177052] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.185976] (drive_bridge_msg) JobEnded: {'identifier': 'drive_bridge_msg', 'rc': 'SIGINT'}
+[3.196621] (-) EventReactorShutdown: {}

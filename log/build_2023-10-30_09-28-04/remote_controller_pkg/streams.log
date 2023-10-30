@@ -1,0 +1,29 @@
+[1.826s] Invoking command in '/home/bodlaire/Desktop/Work/Mocap/src/remote_controller_pkg': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_controller_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/install.log --install-scripts $base/lib/remote_controller_pkg --single-version-externally-managed
+[1.964s] running egg_info
+[1.965s] writing ../../build/remote_controller_pkg/remote_controller_pkg.egg-info/PKG-INFO
+[1.965s] writing dependency_links to ../../build/remote_controller_pkg/remote_controller_pkg.egg-info/dependency_links.txt
+[1.965s] writing entry points to ../../build/remote_controller_pkg/remote_controller_pkg.egg-info/entry_points.txt
+[1.966s] writing requirements to ../../build/remote_controller_pkg/remote_controller_pkg.egg-info/requires.txt
+[1.967s] writing top-level names to ../../build/remote_controller_pkg/remote_controller_pkg.egg-info/top_level.txt
+[1.991s] reading manifest file '../../build/remote_controller_pkg/remote_controller_pkg.egg-info/SOURCES.txt'
+[1.992s] writing manifest file '../../build/remote_controller_pkg/remote_controller_pkg.egg-info/SOURCES.txt'
+[1.992s] running build
+[1.993s] running build_py
+[1.993s] copying remote_controller_pkg/remote_node.py -> /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/build/lib/remote_controller_pkg
+[1.994s] running install
+[1.996s] running install_lib
+[1.998s] copying /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/build/lib/remote_controller_pkg/remote_node.py -> /home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg
+[1.998s] byte-compiling /home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_node.py to remote_node.cpython-38.pyc
+[1.999s] running install_data
+[2.000s] running install_egg_info
+[2.001s]   File "/home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg/remote_node.py", line 104
+[2.002s]     def main:
+[2.003s]             ^
+[2.003s] SyntaxError: invalid syntax
+[2.004s] 
+[2.009s] removing '/home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.009s] Copying ../../build/remote_controller_pkg/remote_controller_pkg.egg-info to /home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages/remote_controller_pkg-0.0.0-py3.8.egg-info
+[2.010s] running install_scripts
+[2.012s] Installing remote_node script to /home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/remote_controller_pkg
+[2.013s] writing list of installed files to '/home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/install.log'
+[2.162s] Invoked command in '/home/bodlaire/Desktop/Work/Mocap/src/remote_controller_pkg' returned '0': PYTHONPATH=/home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/prefix_override:/home/bodlaire/Desktop/Work/Mocap/install/remote_controller_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/remote_controller_pkg build --build-base /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/build install --record /home/bodlaire/Desktop/Work/Mocap/build/remote_controller_pkg/install.log --install-scripts $base/lib/remote_controller_pkg --single-version-externally-managed

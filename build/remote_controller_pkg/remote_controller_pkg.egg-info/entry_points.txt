@@ -1,0 +1,3 @@
+[console_scripts]
+remote_node = remote_controller_pkg.remote_node:main
+
